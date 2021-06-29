@@ -1,6 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
-import Particle from "../Particle";
+import { Container, Row, Col } from "react-bootstrap";
 import QRCode from "qrcode.react";
 
 class Sponsor extends React.Component {
