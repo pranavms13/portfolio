@@ -23,7 +23,8 @@ class Sponsor extends React.Component {
   }
   componentDidMount(){
     if(this.isMobile()){
-      window.open(this.upistring, "_blank")
+      window.location.replace(this.upistring)
+      // window.open(this.upistring, "_blank")
     }
   }
   render() {
