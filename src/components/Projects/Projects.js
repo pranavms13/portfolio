@@ -74,6 +74,16 @@ function Projects() {
               link="https://devfolio.co/submissions/fundngo-5f89"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://assets.devfolio.co/hackathons/c9ec4910652e474b87915718343b68e6/projects/d950106c73c04eb6a9fb19bc363647ba/2da22733-af80-4a56-a2d1-5a313be78b73.png"
+              isCourse={false}
+              title="DeBuilds"
+              description="A Decentralized Software Marketplace for devs/users to sell or buy software with NFT License."
+              link="https://devfolio.co/submissions/debuilds-e369"
+            />
+          </Col>  
         </Row>
       </Container>
     </Container>

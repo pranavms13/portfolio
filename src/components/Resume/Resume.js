@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
-import pdf from "../../Assets/Pranav.pdf";
+// import pdf from "../../Assets/Pranav.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
@@ -13,7 +13,7 @@ function Resume() {
       <Particle />
       <Container>
         <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button variant="primary" href={pdf} target="_blank">
+          <Button variant="primary" href="/resume.pdf" target="_blank">
             <AiOutlineDownload />
             &nbsp;Download CV
           </Button>
@@ -21,6 +21,13 @@ function Resume() {
         <Row className="resume">
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
+            <Resumecontent
+              title="Blockchain/Web3 Developer [ Intern ]"
+              date="Aug 2020 - Sep 2020"
+              content={[
+                `Worked as a Blockchain Developer at BearTax. `,
+              ]}
+            />
             <Resumecontent
               title="Full Stack Developer [ Intern ]"
               date="Aug 2020 - Sep 2020"
@@ -65,13 +72,19 @@ function Resume() {
             <Resumecontent
               title=""
               content={[
-                "Winner Of HackBout 2.0"
+                "Winner Of HackBout 2.0 organised by NMIT"
+              ]}
+            />
+            <Resumecontent
+              title=""
+              content={[
+                "Winner Of ETHOdyssey organised by ETHIndia"
               ]}
             />
           </Col>
         </Row>
         <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button variant="primary" href={pdf} target="_blank">
+          <Button variant="primary" href="/resume.pdf" target="_blank">
           <AiOutlineDownload />&nbsp;Download CV
           </Button>
         </Row>
