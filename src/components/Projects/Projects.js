@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 // import BlogCard from "./BlogsCards";
@@ -8,6 +8,14 @@ import evac from "../../Assets/Projects/evac_logo.png";
 
 
 function Projects() {
+  useEffect(() => {
+    // window.scrollTo(0, 0);
+    fetch("https://api.github.com/users/pranavms13/repos?per_page=100").then(res => {
+      return res.json();
+    }).then(data => {
+      console.log(data);
+    });
+  }, []);
   return (
     <Container fluid className="project-section">
       <Particle />

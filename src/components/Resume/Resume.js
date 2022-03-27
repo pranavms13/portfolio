@@ -23,7 +23,14 @@ function Resume() {
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
               title="Blockchain/Web3 Developer [ Intern ]"
-              date="Aug 2020 - Sep 2020"
+              date="Jan 2022 - Present"
+              content={[
+                `Working as a Blockchain Developer at Avalor Investments. `,
+              ]}
+            />
+            <Resumecontent
+              title="Blockchain/Web3 Developer [ Intern ]"
+              date="Aug 2021 - Oct 2021"
               content={[
                 `Worked as a Blockchain Developer at BearTax. `,
               ]}
@@ -37,7 +44,7 @@ function Resume() {
             />
             <Resumecontent
               title="ML Developer [ Intern ]"
-              date="Jul 2019 - Aug 2019"
+              date="Aug 2019 - Sep 2019"
               content={[
                 "Worked on 2 project for Credit Card Fraud Detection and Chat Intent Identification",
               ]}
@@ -71,14 +78,23 @@ function Resume() {
             <h3 className="resume-title">Ranks and Achivements</h3>
             <Resumecontent
               title=""
+              date="Oct 2021"
               content={[
-                "Winner Of HackBout 2.0 organised by NMIT"
+                "Winner Of Aadhaar Hackathon 2021 organised by UIDAI",
               ]}
             />
             <Resumecontent
               title=""
+              date="Aug 2021"
               content={[
                 "Winner Of ETHOdyssey organised by ETHIndia"
+              ]}
+            />
+            <Resumecontent
+              title=""
+              date="July 2021"
+              content={[
+                "Winner Of HackBout 2.0 organised by NMIT"
               ]}
             />
           </Col>
