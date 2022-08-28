@@ -23,7 +23,7 @@ function Resume() {
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
               title="Blockchain/Web3 Developer [ Intern ]"
-              date="Jan 2022 - Present"
+              date="Jan 2022 - Jul 2022"
               content={[
                 `Working as a Blockchain Developer at Avalor Investments. `,
               ]}
@@ -46,7 +46,7 @@ function Resume() {
               title="ML Developer [ Intern ]"
               date="Aug 2019 - Sep 2019"
               content={[
-                "Worked on 2 project for Credit Card Fraud Detection and Chat Intent Identification",
+                "Worked on 2 projects - Credit Card Fraud Detection and Chat Intent Identification",
               ]}
             />
             <h3 className="resume-title">Extracurricular Activities</h3>
@@ -63,7 +63,7 @@ function Resume() {
             <Resumecontent
               title="Computer Science Engineering [ KSIT, Bangalore ] "
               date="2018 - Present"
-              content={[`CGPA: 7 (Till 6th Sem)`]}
+              content={[`CGPA: 7`]}
             />
             <Resumecontent
               title="2nd PU [ MVJ Pre-University College, Bangalore ]"
@@ -76,6 +76,13 @@ function Resume() {
               content={["Precentage: 70%"]}
             />
             <h3 className="resume-title">Ranks and Achivements</h3>
+            <Resumecontent
+              title=""
+              date="Aug 2022"
+              content={[
+                "Winner Of Smart India Hackathon 2022 organised by AICTE India",
+              ]}
+            />
             <Resumecontent
               title=""
               date="Oct 2021"
